@@ -1,0 +1,41 @@
+/* ============ use before and after =============== */
+.class2::before{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 80%;
+    top: 15px;
+    right: 10%;
+    border: 3px solid black;
+    border-bottom: 0px;
+    z-index: -1;
+}
+.class1::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 80%;
+    bottom: 5%;
+    right: 10%;    
+    border: 3px solid black;
+    border-top: 0px;
+    z-index: -1;
+}
+/* ==================================================== */
+.class2{
+    text-align: center;
+    position: relative;
+}
+.class3{
+    background-color: rgb(255, 253, 250);
+    padding: 15px;
+}
+.class4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+
